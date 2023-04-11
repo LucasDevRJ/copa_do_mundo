@@ -13,3 +13,9 @@ body {
 	align-items: center;
 	align-content: center;
 }
+
+.texto {
+	font-size: 22px;
+	background-color: #FFFFFF;
+	padding: 5px;
+}
