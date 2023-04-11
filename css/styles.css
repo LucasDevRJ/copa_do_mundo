@@ -59,3 +59,15 @@ body {
 	border-color: #D3D3D3;
 	border-style: solid;
 }
+
+@media screen and (min-width: 200px) and (max-width: 500px) {
+	.entrada, .botao, #lista {
+		width: 40%;
+	}
+}
+
+@media screen and (min-width: 501px) and (max-width: 1240px) {
+	.entrada, .botao, #lista {
+		width: 30%;
+	}
+}
