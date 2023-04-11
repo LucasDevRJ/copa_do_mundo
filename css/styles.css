@@ -6,6 +6,10 @@ body {
 	background-size: cover;
 }
 
+.apresentacao {
+	margin-bottom: 30px;
+}
+
 .caixa {
 	display: flex;
 	flex-direction: column;
@@ -18,4 +22,11 @@ body {
 	font-size: 22px;
 	background-color: #FFFFFF;
 	padding: 5px;
+	border-radius: 5px;
+}
+
+.entrada {
+	padding: 10px 15px;
+	font-size: 16px;
+	border-radius: 5px;
 }
