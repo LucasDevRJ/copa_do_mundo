@@ -5,7 +5,6 @@ function exibiAnosCopa() {
 
 	var anoInicial = campoAnoInicial.value;
 	var anoFinal = campoAnoFinal.value;
-
 	console.log(anoInicial);
 
 	anoInicial = parseInt(anoInicial);

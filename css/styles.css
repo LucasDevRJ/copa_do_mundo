@@ -29,4 +29,19 @@ body {
 	padding: 10px 15px;
 	font-size: 16px;
 	border-radius: 5px;
+	border-style: solid;
+	border-color: #D3D3D3;
+}
+
+.botao {
+	margin-top: 20px;
+	width: 17%;
+	padding: 15px 10px;
+	font-size: 15px;
+	font-weight: bolder;
+	background-color: #FFFF00;
+	border: none;
+	border-radius: 5px;
+	color: #FFFFFF;
+	cursor: pointer;
 }
