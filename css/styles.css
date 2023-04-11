@@ -45,3 +45,17 @@ body {
 	color: #FFFFFF;
 	cursor: pointer;
 }
+
+#lista {
+	margin: 0;
+	padding: 8px 0;
+	text-align: center;
+	font-size: 22px;
+	list-style: none;
+	background-color: #FFFFFF;
+	width: 15%;
+	border-width: 1px;
+	border-radius: 5px;
+	border-color: #D3D3D3;
+	border-style: solid;
+}

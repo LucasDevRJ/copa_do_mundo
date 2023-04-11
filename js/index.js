@@ -2,6 +2,7 @@ function exibiAnosCopa() {
 	var campoAnoInicial = document.getElementById("ano-inicial");
 	var campoAnoFinal = document.getElementById("ano-final");
 	var mensagem = document.getElementById("mensagem");
+	var lista = document.querySelector("#lista").innerHTML;
 
 	var anoInicial = campoAnoInicial.value;
 	var anoFinal = campoAnoFinal.value;
@@ -22,8 +23,8 @@ function exibiAnosCopa() {
 		var ano = anoInicial;
 
 		while (ano <= anoFinal) {
-			document.write(ano);
-			document.write("<br>");
+			lista = lista +"<li>"+ ano +"</li>";
+			document.getElementById("lista").innerHTML = lista;
 			ano = ano + 4;
 		}
 	}
