@@ -46,6 +46,11 @@ body {
 	cursor: pointer;
 }
 
+#mensagem {
+	font-size: 20px;
+	color: red;
+}
+
 #lista {
 	margin: 0;
 	padding: 8px 0;
